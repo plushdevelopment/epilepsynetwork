@@ -1,25 +1,93 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3np-oN-QpJ">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Item 2-->
+        <scene sceneID="0zz-0V-To5">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapViewController" id="Uel-Oy-gck" customClass="MapViewController" customModule="EpilepsyUnited" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="Edf-GZ-Hun"/>
+                        <viewControllerLayoutGuide type="bottom" id="X3M-sH-G5K"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="3U7-kB-Nfy">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="77W-pN-chr">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="v0V-i2-7ez"/>
+                    <connections>
+                        <outlet property="mapView" destination="77W-pN-chr" id="SYT-Wg-mIz"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9XY-5M-Im4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1494" y="-122"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="HI6-FS-FLe">
+            <objects>
+                <viewController storyboardIdentifier="JournalViewController" id="Qlo-3s-lxH" customClass="JournalViewController" customModule="EpilepsyUnited" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sTk-yY-SSI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mf1-ur-CUD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p8M-FQ-ypP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="SP1-Gr-pFE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5H6-xh-RiN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542" y="-1725"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="5Wz-Pf-vgw">
+            <objects>
+                <viewController storyboardIdentifier="NewsFeedViewController" id="Ubt-Fi-gzx" customClass="NewsFeedViewController" customModule="EpilepsyUnited" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FxM-jC-opc"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZtM-96-Wg6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uk1-3P-EYC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="KSj-ME-iAq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kq9-Ru-Yrn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1494" y="-900"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="PpC-8M-9jV">
+            <objects>
+                <tabBarController id="3np-oN-QpJ" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="u8D-sZ-B01">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Ubt-Fi-gzx" kind="relationship" relationship="viewControllers" id="ONb-Vc-EWX"/>
+                        <segue destination="Uel-Oy-gck" kind="relationship" relationship="viewControllers" id="Kjj-yx-Cmz"/>
+                        <segue destination="Qlo-3s-lxH" kind="relationship" relationship="viewControllers" id="75e-Is-4k9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nmb-4b-D6s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="538" y="-561"/>
         </scene>
     </scenes>
 </document>

@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3117DC981AEBD74200E3001A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117DC971AEBD74200E3001A /* AppDelegate.swift */; };
-		3117DC9A1AEBD74200E3001A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117DC991AEBD74200E3001A /* ViewController.swift */; };
 		3117DC9D1AEBD74200E3001A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3117DC9B1AEBD74200E3001A /* Main.storyboard */; };
 		3117DC9F1AEBD74200E3001A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3117DC9E1AEBD74200E3001A /* Images.xcassets */; };
 		3117DCA21AEBD74200E3001A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3117DCA01AEBD74200E3001A /* LaunchScreen.xib */; };
 		3117DCAE1AEBD74300E3001A /* EpilepsyUnitedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */; };
 		3175123C1AEBD91700FF1D72 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3175123B1AEBD91700FF1D72 /* data.json */; };
+		FF2A20041AEBF1B800B1527B /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A20031AEBF1B800B1527B /* NewsFeedViewController.swift */; };
+		FF2A20061AEBF39900B1527B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A20051AEBF39900B1527B /* MapViewController.swift */; };
+		FF2A20081AEC0DDF00B1527B /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A20071AEC0DDF00B1527B /* JournalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,6 @@
 		3117DC921AEBD74200E3001A /* EpilepsyUnited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpilepsyUnited.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3117DC961AEBD74200E3001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3117DC971AEBD74200E3001A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3117DC991AEBD74200E3001A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3117DC9C1AEBD74200E3001A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3117DC9E1AEBD74200E3001A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3117DCA11AEBD74200E3001A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -38,6 +39,9 @@
 		3117DCAC1AEBD74300E3001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpilepsyUnitedTests.swift; sourceTree = "<group>"; };
 		3175123B1AEBD91700FF1D72 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		FF2A20031AEBF1B800B1527B /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		FF2A20051AEBF39900B1527B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FF2A20071AEC0DDF00B1527B /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				3117DC971AEBD74200E3001A /* AppDelegate.swift */,
-				3117DC991AEBD74200E3001A /* ViewController.swift */,
 				3117DC9B1AEBD74200E3001A /* Main.storyboard */,
 				3117DC9E1AEBD74200E3001A /* Images.xcassets */,
 				3117DCA01AEBD74200E3001A /* LaunchScreen.xib */,
 				3117DC951AEBD74200E3001A /* Supporting Files */,
+				FF2A20031AEBF1B800B1527B /* NewsFeedViewController.swift */,
+				FF2A20051AEBF39900B1527B /* MapViewController.swift */,
+				FF2A20071AEC0DDF00B1527B /* JournalViewController.swift */,
 			);
 			path = EpilepsyUnited;
 			sourceTree = "<group>";
@@ -216,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3117DC9A1AEBD74200E3001A /* ViewController.swift in Sources */,
+				FF2A20081AEC0DDF00B1527B /* JournalViewController.swift in Sources */,
 				3117DC981AEBD74200E3001A /* AppDelegate.swift in Sources */,
+				FF2A20061AEBF39900B1527B /* MapViewController.swift in Sources */,
+				FF2A20041AEBF1B800B1527B /* NewsFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

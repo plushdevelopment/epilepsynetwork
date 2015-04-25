@@ -38,4 +38,14 @@
   },
   "text": "This is my event"
  }
+ ,
+ {
+ "user": "Ross Chapman",
+ "type": 4,
+ "location": {
+ "latitude": "b",
+ "longitude": "d"
+ },
+ "text": "Bingalingdingdong"
+ }
 ]
