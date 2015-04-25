@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3117DC981AEBD74200E3001A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117DC971AEBD74200E3001A /* AppDelegate.swift */; };
+		3117DC9A1AEBD74200E3001A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117DC991AEBD74200E3001A /* ViewController.swift */; };
+		3117DC9D1AEBD74200E3001A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3117DC9B1AEBD74200E3001A /* Main.storyboard */; };
+		3117DC9F1AEBD74200E3001A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3117DC9E1AEBD74200E3001A /* Images.xcassets */; };
+		3117DCA21AEBD74200E3001A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3117DCA01AEBD74200E3001A /* LaunchScreen.xib */; };
+		3117DCAE1AEBD74300E3001A /* EpilepsyUnitedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3117DCA81AEBD74300E3001A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3117DC8A1AEBD74200E3001A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3117DC911AEBD74200E3001A;
+			remoteInfo = EpilepsyUnited;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3117DC921AEBD74200E3001A /* EpilepsyUnited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpilepsyUnited.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3117DC961AEBD74200E3001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3117DC971AEBD74200E3001A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3117DC991AEBD74200E3001A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3117DC9C1AEBD74200E3001A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3117DC9E1AEBD74200E3001A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3117DCA11AEBD74200E3001A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3117DCA71AEBD74300E3001A /* EpilepsyUnitedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpilepsyUnitedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3117DCAC1AEBD74300E3001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpilepsyUnitedTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3117DC8F1AEBD74200E3001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3117DCA41AEBD74300E3001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3117DC891AEBD74200E3001A = {
+			isa = PBXGroup;
+			children = (
+				3117DC941AEBD74200E3001A /* EpilepsyUnited */,
+				3117DCAA1AEBD74300E3001A /* EpilepsyUnitedTests */,
+				3117DC931AEBD74200E3001A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3117DC931AEBD74200E3001A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3117DC921AEBD74200E3001A /* EpilepsyUnited.app */,
+				3117DCA71AEBD74300E3001A /* EpilepsyUnitedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3117DC941AEBD74200E3001A /* EpilepsyUnited */ = {
+			isa = PBXGroup;
+			children = (
+				3117DC971AEBD74200E3001A /* AppDelegate.swift */,
+				3117DC991AEBD74200E3001A /* ViewController.swift */,
+				3117DC9B1AEBD74200E3001A /* Main.storyboard */,
+				3117DC9E1AEBD74200E3001A /* Images.xcassets */,
+				3117DCA01AEBD74200E3001A /* LaunchScreen.xib */,
+				3117DC951AEBD74200E3001A /* Supporting Files */,
+			);
+			path = EpilepsyUnited;
+			sourceTree = "<group>";
+		};
+		3117DC951AEBD74200E3001A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3117DC961AEBD74200E3001A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3117DCAA1AEBD74300E3001A /* EpilepsyUnitedTests */ = {
+			isa = PBXGroup;
+			children = (
+				3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */,
+				3117DCAB1AEBD74300E3001A /* Supporting Files */,
+			);
+			path = EpilepsyUnitedTests;
+			sourceTree = "<group>";
+		};
+		3117DCAB1AEBD74300E3001A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3117DCAC1AEBD74300E3001A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3117DC911AEBD74200E3001A /* EpilepsyUnited */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3117DCB11AEBD74300E3001A /* Build configuration list for PBXNativeTarget "EpilepsyUnited" */;
+			buildPhases = (
+				3117DC8E1AEBD74200E3001A /* Sources */,
+				3117DC8F1AEBD74200E3001A /* Frameworks */,
+				3117DC901AEBD74200E3001A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpilepsyUnited;
+			productName = EpilepsyUnited;
+			productReference = 3117DC921AEBD74200E3001A /* EpilepsyUnited.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3117DCA61AEBD74300E3001A /* EpilepsyUnitedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3117DCB41AEBD74300E3001A /* Build configuration list for PBXNativeTarget "EpilepsyUnitedTests" */;
+			buildPhases = (
+				3117DCA31AEBD74300E3001A /* Sources */,
+				3117DCA41AEBD74300E3001A /* Frameworks */,
+				3117DCA51AEBD74300E3001A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3117DCA91AEBD74300E3001A /* PBXTargetDependency */,
+			);
+			name = EpilepsyUnitedTests;
+			productName = EpilepsyUnitedTests;
+			productReference = 3117DCA71AEBD74300E3001A /* EpilepsyUnitedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3117DC8A1AEBD74200E3001A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Pratikbhai Patel";
+				TargetAttributes = {
+					3117DC911AEBD74200E3001A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3117DCA61AEBD74300E3001A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3117DC911AEBD74200E3001A;
+					};
+				};
+			};
+			buildConfigurationList = 3117DC8D1AEBD74200E3001A /* Build configuration list for PBXProject "EpilepsyUnited" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3117DC891AEBD74200E3001A;
+			productRefGroup = 3117DC931AEBD74200E3001A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3117DC911AEBD74200E3001A /* EpilepsyUnited */,
+				3117DCA61AEBD74300E3001A /* EpilepsyUnitedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3117DC901AEBD74200E3001A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3117DC9D1AEBD74200E3001A /* Main.storyboard in Resources */,
+				3117DCA21AEBD74200E3001A /* LaunchScreen.xib in Resources */,
+				3117DC9F1AEBD74200E3001A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3117DCA51AEBD74300E3001A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3117DC8E1AEBD74200E3001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3117DC9A1AEBD74200E3001A /* ViewController.swift in Sources */,
+				3117DC981AEBD74200E3001A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3117DCA31AEBD74300E3001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3117DCAE1AEBD74300E3001A /* EpilepsyUnitedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3117DCA91AEBD74300E3001A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3117DC911AEBD74200E3001A /* EpilepsyUnited */;
+			targetProxy = 3117DCA81AEBD74300E3001A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3117DC9B1AEBD74200E3001A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3117DC9C1AEBD74200E3001A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3117DCA01AEBD74200E3001A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3117DCA11AEBD74200E3001A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3117DCAF1AEBD74300E3001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3117DCB01AEBD74300E3001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3117DCB21AEBD74300E3001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EpilepsyUnited/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3117DCB31AEBD74300E3001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EpilepsyUnited/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3117DCB51AEBD74300E3001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EpilepsyUnitedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpilepsyUnited.app/EpilepsyUnited";
+			};
+			name = Debug;
+		};
+		3117DCB61AEBD74300E3001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EpilepsyUnitedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpilepsyUnited.app/EpilepsyUnited";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3117DC8D1AEBD74200E3001A /* Build configuration list for PBXProject "EpilepsyUnited" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3117DCAF1AEBD74300E3001A /* Debug */,
+				3117DCB01AEBD74300E3001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3117DCB11AEBD74300E3001A /* Build configuration list for PBXNativeTarget "EpilepsyUnited" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3117DCB21AEBD74300E3001A /* Debug */,
+				3117DCB31AEBD74300E3001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3117DCB41AEBD74300E3001A /* Build configuration list for PBXNativeTarget "EpilepsyUnitedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3117DCB51AEBD74300E3001A /* Debug */,
+				3117DCB61AEBD74300E3001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3117DC8A1AEBD74200E3001A /* Project object */;
+}

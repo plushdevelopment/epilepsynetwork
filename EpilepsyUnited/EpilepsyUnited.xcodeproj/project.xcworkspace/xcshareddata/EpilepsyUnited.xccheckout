@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>31168263-8D2A-417B-B5AC-4B839D28BC9B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CA713E366BB35EF58A60136888E8AFCCA3F1A184</key>
+		<string>github.com:plushdevelopment/epilepsyunited.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EpilepsyUnited/EpilepsyUnited.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CA713E366BB35EF58A60136888E8AFCCA3F1A184</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:plushdevelopment/epilepsyunited.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CA713E366BB35EF58A60136888E8AFCCA3F1A184</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA713E366BB35EF58A60136888E8AFCCA3F1A184</string>
+			<key>IDESourceControlWCCName</key>
+			<string>epilepsyunited</string>
+		</dict>
+	</array>
+</dict>
+</plist>
