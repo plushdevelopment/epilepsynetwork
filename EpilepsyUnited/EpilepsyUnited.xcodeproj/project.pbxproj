@@ -13,9 +13,13 @@
 		3117DCA21AEBD74200E3001A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3117DCA01AEBD74200E3001A /* LaunchScreen.xib */; };
 		3117DCAE1AEBD74300E3001A /* EpilepsyUnitedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */; };
 		3175123C1AEBD91700FF1D72 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3175123B1AEBD91700FF1D72 /* data.json */; };
-		FF2A20041AEBF1B800B1527B /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A20031AEBF1B800B1527B /* NewsFeedViewController.swift */; };
-		FF2A20061AEBF39900B1527B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A20051AEBF39900B1527B /* MapViewController.swift */; };
-		FF2A20081AEC0DDF00B1527B /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A20071AEC0DDF00B1527B /* JournalViewController.swift */; };
+		9DA5401F990128670D30FF38 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D2E3C1EC5F5AF6CDED5696 /* libPods.a */; };
+		FF2A200C1AEC151200B1527B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A200B1AEC151200B1527B /* RootViewController.swift */; };
+		FF2A20141AEC298C00B1527B /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2A200F1AEC298B00B1527B /* photo1.png */; };
+		FF2A20151AEC298C00B1527B /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2A20101AEC298B00B1527B /* photo2.png */; };
+		FF2A20161AEC298C00B1527B /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2A20111AEC298B00B1527B /* photo3.png */; };
+		FF2A20171AEC298C00B1527B /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2A20121AEC298B00B1527B /* photo4.png */; };
+		FF2A20181AEC298C00B1527B /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2A20131AEC298C00B1527B /* photo5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29D2E3C1EC5F5AF6CDED5696 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3117DC921AEBD74200E3001A /* EpilepsyUnited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpilepsyUnited.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3117DC961AEBD74200E3001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3117DC971AEBD74200E3001A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +44,14 @@
 		3117DCAC1AEBD74300E3001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpilepsyUnitedTests.swift; sourceTree = "<group>"; };
 		3175123B1AEBD91700FF1D72 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		FF2A20031AEBF1B800B1527B /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
-		FF2A20051AEBF39900B1527B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		FF2A20071AEC0DDF00B1527B /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		6A65492C03A2F0746738C56B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		887ADF3D64BADAB26517E166 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2A200B1AEC151200B1527B /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FF2A200F1AEC298B00B1527B /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		FF2A20101AEC298B00B1527B /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		FF2A20111AEC298B00B1527B /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
+		FF2A20121AEC298B00B1527B /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
+		FF2A20131AEC298C00B1527B /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA5401F990128670D30FF38 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +79,8 @@
 				3117DC941AEBD74200E3001A /* EpilepsyUnited */,
 				3117DCAA1AEBD74300E3001A /* EpilepsyUnitedTests */,
 				3117DC931AEBD74200E3001A /* Products */,
+				9B106FF48B312B4350D8D59C /* Pods */,
+				D982A2D6DC01F74C1CBFE071 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,9 +101,7 @@
 				3117DC9E1AEBD74200E3001A /* Images.xcassets */,
 				3117DCA01AEBD74200E3001A /* LaunchScreen.xib */,
 				3117DC951AEBD74200E3001A /* Supporting Files */,
-				FF2A20031AEBF1B800B1527B /* NewsFeedViewController.swift */,
-				FF2A20051AEBF39900B1527B /* MapViewController.swift */,
-				FF2A20071AEC0DDF00B1527B /* JournalViewController.swift */,
+				FF2A200B1AEC151200B1527B /* RootViewController.swift */,
 			);
 			path = EpilepsyUnited;
 			sourceTree = "<group>";
@@ -98,6 +109,11 @@
 		3117DC951AEBD74200E3001A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF2A200F1AEC298B00B1527B /* photo1.png */,
+				FF2A20101AEC298B00B1527B /* photo2.png */,
+				FF2A20111AEC298B00B1527B /* photo3.png */,
+				FF2A20121AEC298B00B1527B /* photo4.png */,
+				FF2A20131AEC298C00B1527B /* photo5.png */,
 				3175123B1AEBD91700FF1D72 /* data.json */,
 				3117DC961AEBD74200E3001A /* Info.plist */,
 			);
@@ -121,6 +137,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9B106FF48B312B4350D8D59C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				887ADF3D64BADAB26517E166 /* Pods.debug.xcconfig */,
+				6A65492C03A2F0746738C56B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D982A2D6DC01F74C1CBFE071 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D2E3C1EC5F5AF6CDED5696 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3117DCB11AEBD74300E3001A /* Build configuration list for PBXNativeTarget "EpilepsyUnited" */;
 			buildPhases = (
+				91767609C6419FA3A7CADAB2 /* Check Pods Manifest.lock */,
 				3117DC8E1AEBD74200E3001A /* Sources */,
 				3117DC8F1AEBD74200E3001A /* Frameworks */,
 				3117DC901AEBD74200E3001A /* Resources */,
+				0828819267C6878D51F79A3B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,10 +236,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2A20141AEC298C00B1527B /* photo1.png in Resources */,
+				FF2A20161AEC298C00B1527B /* photo3.png in Resources */,
 				3117DC9D1AEBD74200E3001A /* Main.storyboard in Resources */,
+				FF2A20171AEC298C00B1527B /* photo4.png in Resources */,
 				3117DCA21AEBD74200E3001A /* LaunchScreen.xib in Resources */,
 				3117DC9F1AEBD74200E3001A /* Images.xcassets in Resources */,
 				3175123C1AEBD91700FF1D72 /* data.json in Resources */,
+				FF2A20151AEC298C00B1527B /* photo2.png in Resources */,
+				FF2A20181AEC298C00B1527B /* photo5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +257,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0828819267C6878D51F79A3B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91767609C6419FA3A7CADAB2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3117DC8E1AEBD74200E3001A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF2A20081AEC0DDF00B1527B /* JournalViewController.swift in Sources */,
 				3117DC981AEBD74200E3001A /* AppDelegate.swift in Sources */,
-				FF2A20061AEBF39900B1527B /* MapViewController.swift in Sources */,
-				FF2A20041AEBF1B800B1527B /* NewsFeedViewController.swift in Sources */,
+				FF2A200C1AEC151200B1527B /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +421,7 @@
 		};
 		3117DCB21AEBD74300E3001A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887ADF3D64BADAB26517E166 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EpilepsyUnited/Info.plist;
@@ -360,6 +432,7 @@
 		};
 		3117DCB31AEBD74300E3001A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A65492C03A2F0746738C56B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EpilepsyUnited/Info.plist;

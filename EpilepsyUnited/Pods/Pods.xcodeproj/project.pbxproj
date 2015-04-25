@@ -1,0 +1,1115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003902961AD6D062BF28F9FB /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BF995DBB0D42FA9A92BE3EC6 /* BFTask.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		076F3DD0715B402D492A56F8 /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 617F3F3D37A968ACD10404CA /* BFAppLink.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		078BC35FEE48FC02F104B42E /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9751F9659E8792DB1F6012CE /* BFAppLinkReturnToRefererView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		092254D784BBE33FA25D013F /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526BBB7BDC6E9E1C3FD0720F /* BFAppLinkReturnToRefererController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0983D659AE4E63B3D66252AF /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A94BAF059B5575FB398484 /* BFMeasurementEvent.h */; };
+		0CFAFB2720D6B9E83435C38E /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A94BAF059B5575FB398484 /* BFMeasurementEvent.h */; };
+		0DF1D127DB2E4AC003C28CD7 /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526BBB7BDC6E9E1C3FD0720F /* BFAppLinkReturnToRefererController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		14E713476125D96ED5270098 /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2532EE894E85A093F0B17A80 /* BFMeasurementEvent_Internal.h */; };
+		1658EB019010B71418F2CFB3 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D8BC4ED9AC64E31067C109 /* BFAppLinkNavigation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		18CE49CC8BB2948FA298B805 /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E040B3A710EAF51B2CBF6 /* BFURL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		199098144E8C243BF7B26FCC /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FE9757BD9F9A48D0743A2 /* Bolts.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1BE3A8805743CDBA1F3A279F /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = B13C70F120DBE8E4D6CA3951 /* BFAppLinkReturnToRefererView.h */; };
+		1E8C25FE8EF9E6883CEAF279 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF422ACDBE45D077F35C8B8 /* BFTaskCompletionSource.h */; };
+		23E7B9D38D25E625016C5E6C /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 32232F014DEF4756F09CC6C2 /* BFURL_Internal.h */; };
+		280AA26667F4A12E0DE95724 /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B06ACB5010E630C67225CB33 /* BFAppLinkReturnToRefererView_Internal.h */; };
+		2A539FF4A0C8A4C3A9605966 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FE9757BD9F9A48D0743A2 /* Bolts.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B4D8D1112B7889A88B7CC5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4BFE3A37F41813DF95FF11 /* Foundation.framework */; };
+		2B7BEFACC15862F8EB181657 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1785F156089D8406E467B /* BFTaskCompletionSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B7C6B0B5A7A112C6D35157F /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = FA144437D38405C2F3B0734C /* BFAppLinkTarget.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2DF00C4628D6B5D0C17D53CF /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A69EB5CB3103E1FAE6628A0 /* BFAppLink_Internal.h */; };
+		30B559D12932E409F03BE054 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBA2FDD1CA971D11D1347BB /* BFAppLinkReturnToRefererController.h */; };
+		31FF14C9869A6B9DBBC62A9C /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BEE032B01459408AF8FFE6 /* BFAppLinkTarget.h */; };
+		32C90F4EC318FA7BA257E00B /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A2F008526AC5A66AD3E35 /* BFMeasurementEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		396E349EF8ED244F772168A4 /* Pods-Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A85088BB2E33F58147FE778 /* Pods-Bolts-dummy.m */; };
+		3A5F9A35BAE64E539F18E312 /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9918CF277664271415A35E7C /* BFWebViewAppLinkResolver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3B3A0FE14A9C7D658170D142 /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 280D637FD20EB06B65C68081 /* BFURL.h */; };
+		438EE9A9F40DFBDD971F58D5 /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A69EB5CB3103E1FAE6628A0 /* BFAppLink_Internal.h */; };
+		4461C897AFDB298ECDC17599 /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BEE032B01459408AF8FFE6 /* BFAppLinkTarget.h */; };
+		4ACF61EE89360D870D74233D /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2532EE894E85A093F0B17A80 /* BFMeasurementEvent_Internal.h */; };
+		4DC8E1291C5677B7E9267EB0 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC58C3B06B599F65B3944 /* BFExecutor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4EA444C7D4D195630642BB03 /* Pods-EpilepsyUnited-Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6310D6984AF680724B168 /* Pods-EpilepsyUnited-Bolts-dummy.m */; };
+		50A12C0E03FB941E217423FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4BFE3A37F41813DF95FF11 /* Foundation.framework */; };
+		515D631AA318524F059F55AF /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9751F9659E8792DB1F6012CE /* BFAppLinkReturnToRefererView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		52750265A1A7D5611E137587 /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = B13C70F120DBE8E4D6CA3951 /* BFAppLinkReturnToRefererView.h */; };
+		5991B173F4D6FB481D03CFE0 /* Pods-EpilepsyUnitedTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4819CFF884211526F107F285 /* Pods-EpilepsyUnitedTests-dummy.m */; };
+		5CF1D096DBC6CF89DE8CC823 /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EDD90AF6A313652D05364D /* BFAppLinkNavigation.h */; };
+		5EA61728D41840375E6AD19B /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DC7F1FA37F2865EA3A8152 /* BoltsVersion.h */; };
+		615DD40D94A4FB800292AF95 /* Pods-EpilepsyUnited-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9F4F4C13FFC1153257F0BD /* Pods-EpilepsyUnited-dummy.m */; };
+		6308C7BC1F4675A6E88BFE3C /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C6B8B720F9DBAA92ED7C88 /* BFAppLinkResolving.h */; };
+		689B80E95CC37CF45D3B420B /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC58C3B06B599F65B3944 /* BFExecutor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		69D8F134AC6338A8C3E2722C /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A69EB5CB3103E1FAE6628A0 /* BFAppLink_Internal.h */; };
+		6A522E2053DBE9CB5510F5F4 /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C6B8B720F9DBAA92ED7C88 /* BFAppLinkResolving.h */; };
+		6C0701032D42F7605B5E5CAA /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD754A02B88B043DAB5D3DC /* BFTask.h */; };
+		6C88F13DBBA7AF10438E006A /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DE9039D5C37A9156CDA88B /* BFWebViewAppLinkResolver.h */; };
+		6E210FED2676789D433B674D /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD754A02B88B043DAB5D3DC /* BFTask.h */; };
+		714575152736C8164BB21E22 /* Pods-EpilepsyUnitedTests-Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC54F0736E394942D9FDE267 /* Pods-EpilepsyUnitedTests-Bolts-dummy.m */; };
+		71771C67FBFA1C28FF1B3AA1 /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A2F008526AC5A66AD3E35 /* BFMeasurementEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		74A15FC53E6C82C5A5429D9C /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD754A02B88B043DAB5D3DC /* BFTask.h */; };
+		7515400D2AA93AE1E8EFA282 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C37054AD81E35B75A6B6D1 /* Bolts.h */; };
+		7878DC7C92B4481733E37F53 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D8BC4ED9AC64E31067C109 /* BFAppLinkNavigation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7C881D50209D88564F1CA022 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D8BC4ED9AC64E31067C109 /* BFAppLinkNavigation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E60265E549A88087AE35F8D /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9918CF277664271415A35E7C /* BFWebViewAppLinkResolver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7F1C97ADFF9D4C66AC038F81 /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2532EE894E85A093F0B17A80 /* BFMeasurementEvent_Internal.h */; };
+		871BF4A1F6E7D623B3EC9A36 /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B06ACB5010E630C67225CB33 /* BFAppLinkReturnToRefererView_Internal.h */; };
+		89CFBC89FD466FA1082AE3AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4BFE3A37F41813DF95FF11 /* Foundation.framework */; };
+		8DF3A4A6810F3107FF198348 /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DE9039D5C37A9156CDA88B /* BFWebViewAppLinkResolver.h */; };
+		9065F22EC4136EC4EFA62337 /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BF995DBB0D42FA9A92BE3EC6 /* BFTask.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		929CC47CD13D7324CC4A5072 /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9751F9659E8792DB1F6012CE /* BFAppLinkReturnToRefererView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		92A9EF2C5FA745F5DFC57069 /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A94BAF059B5575FB398484 /* BFMeasurementEvent.h */; };
+		93D17B84D02219CA48559C1A /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BF995DBB0D42FA9A92BE3EC6 /* BFTask.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		954A5E2EF4526E280C1923EB /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF422ACDBE45D077F35C8B8 /* BFTaskCompletionSource.h */; };
+		9BA276E4CB4D1DDC5284A208 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C29599AAA26457E13D9F2D /* BFExecutor.h */; };
+		9EF1B90339C733B752024284 /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EDD90AF6A313652D05364D /* BFAppLinkNavigation.h */; };
+		A3B099428F59A8796366B43F /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4270D7C1A4E73ABD82CE15 /* BFAppLink.h */; };
+		A3B30485BCF10A1B8BD0E69B /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DC7F1FA37F2865EA3A8152 /* BoltsVersion.h */; };
+		A58F54ACCE3D9C2CE5214CFD /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C37054AD81E35B75A6B6D1 /* Bolts.h */; };
+		AFF598CC3D92193A33FD3949 /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 617F3F3D37A968ACD10404CA /* BFAppLink.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B191386B301A9CC7C128C4F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4BFE3A37F41813DF95FF11 /* Foundation.framework */; };
+		B1CAE7136A329FC75E3AFF58 /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DE9039D5C37A9156CDA88B /* BFWebViewAppLinkResolver.h */; };
+		B2F210C2079285914FC37478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4BFE3A37F41813DF95FF11 /* Foundation.framework */; };
+		B6122BDCDD6538D6CCD4B3C8 /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 280D637FD20EB06B65C68081 /* BFURL.h */; };
+		BBD91922CCD8D841741407FA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B58DF1A5D4ED87259061D9 /* Pods-dummy.m */; };
+		BD7DF8B16487E2A45050830A /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4270D7C1A4E73ABD82CE15 /* BFAppLink.h */; };
+		C063D94DD5D7550C1DC4B1DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4BFE3A37F41813DF95FF11 /* Foundation.framework */; };
+		C41059CCACC8EEA397885579 /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EDD90AF6A313652D05364D /* BFAppLinkNavigation.h */; };
+		C520073D173BBFEEB6A49157 /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = FA144437D38405C2F3B0734C /* BFAppLinkTarget.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C771D9358282266487BE3249 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 32232F014DEF4756F09CC6C2 /* BFURL_Internal.h */; };
+		D025B9B439448D1687C72F35 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FE9757BD9F9A48D0743A2 /* Bolts.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D0A7E1C3F53B81F858216970 /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9918CF277664271415A35E7C /* BFWebViewAppLinkResolver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D1B24B111B2B406D0BBCC0EF /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C37054AD81E35B75A6B6D1 /* Bolts.h */; };
+		D668FB9C619080F5E4AE0976 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C29599AAA26457E13D9F2D /* BFExecutor.h */; };
+		D6B0CC5978ED06A1D33730E7 /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 280D637FD20EB06B65C68081 /* BFURL.h */; };
+		D857FF385D596CA0E90BCD35 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1785F156089D8406E467B /* BFTaskCompletionSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9F17361F76008A5CA5C0FB7 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C29599AAA26457E13D9F2D /* BFExecutor.h */; };
+		DC18FCAB9FCE4C723DA9D3E8 /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 617F3F3D37A968ACD10404CA /* BFAppLink.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DDA66F83024CA5DE170D85C9 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBA2FDD1CA971D11D1347BB /* BFAppLinkReturnToRefererController.h */; };
+		E0893371F9475CC4F0D1BF6C /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A2F008526AC5A66AD3E35 /* BFMeasurementEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E092F7A078080DA57D3FB50D /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B06ACB5010E630C67225CB33 /* BFAppLinkReturnToRefererView_Internal.h */; };
+		E2768A7A6478E985B4338166 /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526BBB7BDC6E9E1C3FD0720F /* BFAppLinkReturnToRefererController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E2B931B8C1749AA006BD2209 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 32232F014DEF4756F09CC6C2 /* BFURL_Internal.h */; };
+		E3114856265D065C23FBF2C9 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC58C3B06B599F65B3944 /* BFExecutor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4A9270F2F6FA47282E4BEE2 /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = B13C70F120DBE8E4D6CA3951 /* BFAppLinkReturnToRefererView.h */; };
+		E54B991C8A2F6669B1418BF6 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBA2FDD1CA971D11D1347BB /* BFAppLinkReturnToRefererController.h */; };
+		EC9BB70259DF3B6248FE634F /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4270D7C1A4E73ABD82CE15 /* BFAppLink.h */; };
+		ED1484AC608BBC23A97D6D85 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1785F156089D8406E467B /* BFTaskCompletionSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED9E3A855059BEB21C3C8F03 /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BEE032B01459408AF8FFE6 /* BFAppLinkTarget.h */; };
+		F081EFC563ABDA92DDAE20DD /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C6B8B720F9DBAA92ED7C88 /* BFAppLinkResolving.h */; };
+		F86687F1954620FCB410EE19 /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = FA144437D38405C2F3B0734C /* BFAppLinkTarget.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9AE2BE1F411DFBEC3E84819 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF422ACDBE45D077F35C8B8 /* BFTaskCompletionSource.h */; };
+		FAEE85FC56F0399008C69AC9 /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E040B3A710EAF51B2CBF6 /* BFURL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FC75AE8EFEF101386794D9CD /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DC7F1FA37F2865EA3A8152 /* BoltsVersion.h */; };
+		FD46127EE4B5FDFED3EAEF41 /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E040B3A710EAF51B2CBF6 /* BFURL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		082498BD1BD1E9A592D9E0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C0AD8B6B8FF519C80E34033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05417CADE54057C19738B434;
+			remoteInfo = "Pods-EpilepsyUnited-Bolts";
+		};
+		0B2CA131DBADA9FCEC72FFD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C0AD8B6B8FF519C80E34033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC952F31D0A96FA7B0AD956;
+			remoteInfo = "Pods-EpilepsyUnitedTests-Bolts";
+		};
+		705F0F66556967C78852AF67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C0AD8B6B8FF519C80E34033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025B972ACDD5BAB44537D985;
+			remoteInfo = "Pods-Bolts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BC4C2AA5CA63951C008B35 /* Pods-Bolts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bolts-Private.xcconfig"; sourceTree = "<group>"; };
+		0C19C280175F9051F1A2802E /* Pods-EpilepsyUnitedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpilepsyUnitedTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F5719F28E1917A35FAEE29A /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		160B1550ACECF5A5017825DC /* Pods-Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bolts.xcconfig"; sourceTree = "<group>"; };
+		187EF19183045614935AC571 /* Pods-EpilepsyUnited-Bolts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpilepsyUnited-Bolts-Private.xcconfig"; path = "../Pods-EpilepsyUnited-Bolts/Pods-EpilepsyUnited-Bolts-Private.xcconfig"; sourceTree = "<group>"; };
+		1952F0403158A44B59DED322 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C4270D7C1A4E73ABD82CE15 /* BFAppLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = Bolts/iOS/BFAppLink.h; sourceTree = "<group>"; };
+		1C6FE9757BD9F9A48D0743A2 /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
+		21E0FB57B61AC5657E5F024F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24C37054AD81E35B75A6B6D1 /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
+		2532EE894E85A093F0B17A80 /* BFMeasurementEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent_Internal.h; path = Bolts/iOS/BFMeasurementEvent_Internal.h; sourceTree = "<group>"; };
+		26D65628C72E31BF5425B3B7 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		280D637FD20EB06B65C68081 /* BFURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = Bolts/iOS/BFURL.h; sourceTree = "<group>"; };
+		29D5023BE0A6C95AC40B2749 /* libPods-EpilepsyUnitedTests-Bolts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpilepsyUnitedTests-Bolts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A85088BB2E33F58147FE778 /* Pods-Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bolts-dummy.m"; sourceTree = "<group>"; };
+		2BD754A02B88B043DAB5D3DC /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		2FBA2FDD1CA971D11D1347BB /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = Bolts/iOS/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
+		32232F014DEF4756F09CC6C2 /* BFURL_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL_Internal.h; path = Bolts/iOS/BFURL_Internal.h; sourceTree = "<group>"; };
+		4819CFF884211526F107F285 /* Pods-EpilepsyUnitedTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EpilepsyUnitedTests-dummy.m"; sourceTree = "<group>"; };
+		48DC7F1FA37F2865EA3A8152 /* BoltsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = Bolts/Common/BoltsVersion.h; sourceTree = "<group>"; };
+		4CA2D6A8BC167DA2526EC1B6 /* Pods-EpilepsyUnited.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpilepsyUnited.debug.xcconfig"; sourceTree = "<group>"; };
+		4F3B030458942B808399E562 /* libPods-EpilepsyUnited.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpilepsyUnited.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526BBB7BDC6E9E1C3FD0720F /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererController.m; path = Bolts/iOS/BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
+		55D8BC4ED9AC64E31067C109 /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = Bolts/iOS/BFAppLinkNavigation.m; sourceTree = "<group>"; };
+		5C453C8C241AFA9683F7FCFF /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		5E4BFE3A37F41813DF95FF11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FBCC359D4A0BF5B721C5383 /* Pods-EpilepsyUnitedTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EpilepsyUnitedTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		617F3F3D37A968ACD10404CA /* BFAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLink.m; path = Bolts/iOS/BFAppLink.m; sourceTree = "<group>"; };
+		646279263E3274E2F2D2716F /* Pods-EpilepsyUnited-Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpilepsyUnited-Bolts.xcconfig"; path = "../Pods-EpilepsyUnited-Bolts/Pods-EpilepsyUnited-Bolts.xcconfig"; sourceTree = "<group>"; };
+		665CDA9AC852BE1E34BDBB33 /* libPods-Bolts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bolts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A90F8D584BAE7272D0BA1A /* Pods-EpilepsyUnitedTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EpilepsyUnitedTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AF422ACDBE45D077F35C8B8 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		7B6CC58C3B06B599F65B3944 /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		7CB6310D6984AF680724B168 /* Pods-EpilepsyUnited-Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-EpilepsyUnited-Bolts-dummy.m"; path = "../Pods-EpilepsyUnited-Bolts/Pods-EpilepsyUnited-Bolts-dummy.m"; sourceTree = "<group>"; };
+		8097FEFAEE788BA4C2BE432C /* libPods-EpilepsyUnitedTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpilepsyUnitedTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834C274D6BA84694CE6A4872 /* Pods-EpilepsyUnitedTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpilepsyUnitedTests-resources.sh"; sourceTree = "<group>"; };
+		84A94BAF059B5575FB398484 /* BFMeasurementEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent.h; path = Bolts/iOS/BFMeasurementEvent.h; sourceTree = "<group>"; };
+		84EDD90AF6A313652D05364D /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = Bolts/iOS/BFAppLinkNavigation.h; sourceTree = "<group>"; };
+		8AEDA712D09846B118A92326 /* Pods-EpilepsyUnited.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpilepsyUnited.release.xcconfig"; sourceTree = "<group>"; };
+		8B94C19840F563B3153A538A /* Pods-EpilepsyUnitedTests-Bolts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpilepsyUnitedTests-Bolts-Private.xcconfig"; path = "../Pods-EpilepsyUnitedTests-Bolts/Pods-EpilepsyUnitedTests-Bolts-Private.xcconfig"; sourceTree = "<group>"; };
+		8BD1785F156089D8406E467B /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		9258B78D7F4B3C831801EBB9 /* Pods-EpilepsyUnitedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpilepsyUnitedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9751F9659E8792DB1F6012CE /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererView.m; path = Bolts/iOS/BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
+		9918CF277664271415A35E7C /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFWebViewAppLinkResolver.m; path = Bolts/iOS/BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
+		9A69EB5CB3103E1FAE6628A0 /* BFAppLink_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink_Internal.h; path = Bolts/iOS/BFAppLink_Internal.h; sourceTree = "<group>"; };
+		9AF3A84F2732F3ACCAE78192 /* Pods-EpilepsyUnited-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EpilepsyUnited-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B9A5C274FAF0A83680F5C1E /* Pods-EpilepsyUnitedTests-Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-EpilepsyUnitedTests-Bolts-prefix.pch"; path = "../Pods-EpilepsyUnitedTests-Bolts/Pods-EpilepsyUnitedTests-Bolts-prefix.pch"; sourceTree = "<group>"; };
+		9D2F60289380C1960064E031 /* Pods-EpilepsyUnited-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EpilepsyUnited-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E367990EC1CB132C6658D3D /* Pods-EpilepsyUnitedTests-Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpilepsyUnitedTests-Bolts.xcconfig"; path = "../Pods-EpilepsyUnitedTests-Bolts/Pods-EpilepsyUnitedTests-Bolts.xcconfig"; sourceTree = "<group>"; };
+		9EBDE888BE4377AEB32C71AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EB91B819DB7F0595100971 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A8BEE032B01459408AF8FFE6 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = Bolts/iOS/BFAppLinkTarget.h; sourceTree = "<group>"; };
+		AC101ECE89BDFE473FAFB625 /* libPods-EpilepsyUnited-Bolts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpilepsyUnited-Bolts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4373EC6F2DCA0AFF0B6288 /* Pods-EpilepsyUnitedTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EpilepsyUnitedTests-environment.h"; sourceTree = "<group>"; };
+		B06ACB5010E630C67225CB33 /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = Bolts/iOS/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
+		B13C70F120DBE8E4D6CA3951 /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = Bolts/iOS/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
+		BA8A2F008526AC5A66AD3E35 /* BFMeasurementEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFMeasurementEvent.m; path = Bolts/iOS/BFMeasurementEvent.m; sourceTree = "<group>"; };
+		BF995DBB0D42FA9A92BE3EC6 /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
+		C4C29599AAA26457E13D9F2D /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		C4F040D8DD11A0B7FE6AC833 /* Pods-Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bolts-prefix.pch"; sourceTree = "<group>"; };
+		C7DE9039D5C37A9156CDA88B /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = Bolts/iOS/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
+		CC54F0736E394942D9FDE267 /* Pods-EpilepsyUnitedTests-Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-EpilepsyUnitedTests-Bolts-dummy.m"; path = "../Pods-EpilepsyUnitedTests-Bolts/Pods-EpilepsyUnitedTests-Bolts-dummy.m"; sourceTree = "<group>"; };
+		CEB4DA642F5AEA59F0FF51FB /* Pods-EpilepsyUnited-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpilepsyUnited-resources.sh"; sourceTree = "<group>"; };
+		D06E040B3A710EAF51B2CBF6 /* BFURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFURL.m; path = Bolts/iOS/BFURL.m; sourceTree = "<group>"; };
+		D5B58DF1A5D4ED87259061D9 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		DB271501BEF1BEA5CAD6256F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		DEB2417E2966ED7A92F2BB6A /* Pods-EpilepsyUnited-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EpilepsyUnited-environment.h"; sourceTree = "<group>"; };
+		E28028B83BC844295E36725B /* Pods-EpilepsyUnited-Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-EpilepsyUnited-Bolts-prefix.pch"; path = "../Pods-EpilepsyUnited-Bolts/Pods-EpilepsyUnited-Bolts-prefix.pch"; sourceTree = "<group>"; };
+		E6C6B8B720F9DBAA92ED7C88 /* BFAppLinkResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = Bolts/iOS/BFAppLinkResolving.h; sourceTree = "<group>"; };
+		FA144437D38405C2F3B0734C /* BFAppLinkTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkTarget.m; path = Bolts/iOS/BFAppLinkTarget.m; sourceTree = "<group>"; };
+		FA9F4F4C13FFC1153257F0BD /* Pods-EpilepsyUnited-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EpilepsyUnited-dummy.m"; sourceTree = "<group>"; };
+		FD95201F91F9B2E0A9BE28EE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C15D7B1D712B59BED37CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C063D94DD5D7550C1DC4B1DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3709B8B42BC6802EA7043256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4D8D1112B7889A88B7CC5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538A3607F1C9E975129E673A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B191386B301A9CC7C128C4F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C77521C309FDC912627C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F210C2079285914FC37478 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC3A8BA183EF387E2D071E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CFBC89FD466FA1082AE3AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE905B446E08E70376BBB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A12C0E03FB941E217423FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E5E1E474A2DF092844EA94 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C39C3C0168CA4008BFE6907 /* Pods */,
+				BFC91D00DC1618431D17B267 /* Pods-EpilepsyUnited */,
+				A96F9E8DA30EB93630149A70 /* Pods-EpilepsyUnitedTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0F6E9C132C78E7C5B6ED5089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2EB91B819DB7F0595100971 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F1C0E80950F7F4EE56F9B59 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5E4BFE3A37F41813DF95FF11 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		459E2B16C007421AB9F60D3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				160B1550ACECF5A5017825DC /* Pods-Bolts.xcconfig */,
+				03BC4C2AA5CA63951C008B35 /* Pods-Bolts-Private.xcconfig */,
+				2A85088BB2E33F58147FE778 /* Pods-Bolts-dummy.m */,
+				C4F040D8DD11A0B7FE6AC833 /* Pods-Bolts-prefix.pch */,
+				646279263E3274E2F2D2716F /* Pods-EpilepsyUnited-Bolts.xcconfig */,
+				187EF19183045614935AC571 /* Pods-EpilepsyUnited-Bolts-Private.xcconfig */,
+				7CB6310D6984AF680724B168 /* Pods-EpilepsyUnited-Bolts-dummy.m */,
+				E28028B83BC844295E36725B /* Pods-EpilepsyUnited-Bolts-prefix.pch */,
+				9E367990EC1CB132C6658D3D /* Pods-EpilepsyUnitedTests-Bolts.xcconfig */,
+				8B94C19840F563B3153A538A /* Pods-EpilepsyUnitedTests-Bolts-Private.xcconfig */,
+				CC54F0736E394942D9FDE267 /* Pods-EpilepsyUnitedTests-Bolts-dummy.m */,
+				9B9A5C274FAF0A83680F5C1E /* Pods-EpilepsyUnitedTests-Bolts-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Bolts";
+			sourceTree = "<group>";
+		};
+		572DDA50247FA3AC858E4F51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F1C0E80950F7F4EE56F9B59 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D3B3298C81218239622C00C /* AppLinks */ = {
+			isa = PBXGroup;
+			children = (
+				1C4270D7C1A4E73ABD82CE15 /* BFAppLink.h */,
+				617F3F3D37A968ACD10404CA /* BFAppLink.m */,
+				84EDD90AF6A313652D05364D /* BFAppLinkNavigation.h */,
+				55D8BC4ED9AC64E31067C109 /* BFAppLinkNavigation.m */,
+				E6C6B8B720F9DBAA92ED7C88 /* BFAppLinkResolving.h */,
+				2FBA2FDD1CA971D11D1347BB /* BFAppLinkReturnToRefererController.h */,
+				526BBB7BDC6E9E1C3FD0720F /* BFAppLinkReturnToRefererController.m */,
+				B13C70F120DBE8E4D6CA3951 /* BFAppLinkReturnToRefererView.h */,
+				9751F9659E8792DB1F6012CE /* BFAppLinkReturnToRefererView.m */,
+				B06ACB5010E630C67225CB33 /* BFAppLinkReturnToRefererView_Internal.h */,
+				A8BEE032B01459408AF8FFE6 /* BFAppLinkTarget.h */,
+				FA144437D38405C2F3B0734C /* BFAppLinkTarget.m */,
+				9A69EB5CB3103E1FAE6628A0 /* BFAppLink_Internal.h */,
+				84A94BAF059B5575FB398484 /* BFMeasurementEvent.h */,
+				BA8A2F008526AC5A66AD3E35 /* BFMeasurementEvent.m */,
+				2532EE894E85A093F0B17A80 /* BFMeasurementEvent_Internal.h */,
+				280D637FD20EB06B65C68081 /* BFURL.h */,
+				D06E040B3A710EAF51B2CBF6 /* BFURL.m */,
+				32232F014DEF4756F09CC6C2 /* BFURL_Internal.h */,
+				C7DE9039D5C37A9156CDA88B /* BFWebViewAppLinkResolver.h */,
+				9918CF277664271415A35E7C /* BFWebViewAppLinkResolver.m */,
+			);
+			name = AppLinks;
+			sourceTree = "<group>";
+		};
+		760866CDC2010BBC5F617851 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				C4C29599AAA26457E13D9F2D /* BFExecutor.h */,
+				7B6CC58C3B06B599F65B3944 /* BFExecutor.m */,
+				2BD754A02B88B043DAB5D3DC /* BFTask.h */,
+				BF995DBB0D42FA9A92BE3EC6 /* BFTask.m */,
+				7AF422ACDBE45D077F35C8B8 /* BFTaskCompletionSource.h */,
+				8BD1785F156089D8406E467B /* BFTaskCompletionSource.m */,
+				24C37054AD81E35B75A6B6D1 /* Bolts.h */,
+				1C6FE9757BD9F9A48D0743A2 /* Bolts.m */,
+				48DC7F1FA37F2865EA3A8152 /* BoltsVersion.h */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		7C39C3C0168CA4008BFE6907 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1952F0403158A44B59DED322 /* Pods-acknowledgements.markdown */,
+				0F5719F28E1917A35FAEE29A /* Pods-acknowledgements.plist */,
+				D5B58DF1A5D4ED87259061D9 /* Pods-dummy.m */,
+				5C453C8C241AFA9683F7FCFF /* Pods-environment.h */,
+				26D65628C72E31BF5425B3B7 /* Pods-resources.sh */,
+				DB271501BEF1BEA5CAD6256F /* Pods.debug.xcconfig */,
+				FD95201F91F9B2E0A9BE28EE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		8F3405BA0190CB4B8AD92169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EBDE888BE4377AEB32C71AB /* libPods.a */,
+				665CDA9AC852BE1E34BDBB33 /* libPods-Bolts.a */,
+				4F3B030458942B808399E562 /* libPods-EpilepsyUnited.a */,
+				AC101ECE89BDFE473FAFB625 /* libPods-EpilepsyUnited-Bolts.a */,
+				8097FEFAEE788BA4C2BE432C /* libPods-EpilepsyUnitedTests.a */,
+				29D5023BE0A6C95AC40B2749 /* libPods-EpilepsyUnitedTests-Bolts.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9255B4750243BCE8B0BCBE9F /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				0F6E9C132C78E7C5B6ED5089 /* Frameworks */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		A96F9E8DA30EB93630149A70 /* Pods-EpilepsyUnitedTests */ = {
+			isa = PBXGroup;
+			children = (
+				70A90F8D584BAE7272D0BA1A /* Pods-EpilepsyUnitedTests-acknowledgements.markdown */,
+				5FBCC359D4A0BF5B721C5383 /* Pods-EpilepsyUnitedTests-acknowledgements.plist */,
+				4819CFF884211526F107F285 /* Pods-EpilepsyUnitedTests-dummy.m */,
+				AE4373EC6F2DCA0AFF0B6288 /* Pods-EpilepsyUnitedTests-environment.h */,
+				834C274D6BA84694CE6A4872 /* Pods-EpilepsyUnitedTests-resources.sh */,
+				9258B78D7F4B3C831801EBB9 /* Pods-EpilepsyUnitedTests.debug.xcconfig */,
+				0C19C280175F9051F1A2802E /* Pods-EpilepsyUnitedTests.release.xcconfig */,
+			);
+			name = "Pods-EpilepsyUnitedTests";
+			path = "Target Support Files/Pods-EpilepsyUnitedTests";
+			sourceTree = "<group>";
+		};
+		BFC91D00DC1618431D17B267 /* Pods-EpilepsyUnited */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3A84F2732F3ACCAE78192 /* Pods-EpilepsyUnited-acknowledgements.markdown */,
+				9D2F60289380C1960064E031 /* Pods-EpilepsyUnited-acknowledgements.plist */,
+				FA9F4F4C13FFC1153257F0BD /* Pods-EpilepsyUnited-dummy.m */,
+				DEB2417E2966ED7A92F2BB6A /* Pods-EpilepsyUnited-environment.h */,
+				CEB4DA642F5AEA59F0FF51FB /* Pods-EpilepsyUnited-resources.sh */,
+				4CA2D6A8BC167DA2526EC1B6 /* Pods-EpilepsyUnited.debug.xcconfig */,
+				8AEDA712D09846B118A92326 /* Pods-EpilepsyUnited.release.xcconfig */,
+			);
+			name = "Pods-EpilepsyUnited";
+			path = "Target Support Files/Pods-EpilepsyUnited";
+			sourceTree = "<group>";
+		};
+		C9AAC376356377AB24DF6ADF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F205BDD2B7379494327CEAA0 /* Bolts */,
+				9255B4750243BCE8B0BCBE9F /* Parse */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2DDC38C96DAD1347F068EA0 = {
+			isa = PBXGroup;
+			children = (
+				21E0FB57B61AC5657E5F024F /* Podfile */,
+				572DDA50247FA3AC858E4F51 /* Frameworks */,
+				C9AAC376356377AB24DF6ADF /* Pods */,
+				8F3405BA0190CB4B8AD92169 /* Products */,
+				08E5E1E474A2DF092844EA94 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F205BDD2B7379494327CEAA0 /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				6D3B3298C81218239622C00C /* AppLinks */,
+				459E2B16C007421AB9F60D3C /* Support Files */,
+				760866CDC2010BBC5F617851 /* Tasks */,
+			);
+			path = Bolts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1100505C91C3BC3895ADE8A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7DF8B16487E2A45050830A /* BFAppLink.h in Headers */,
+				5CF1D096DBC6CF89DE8CC823 /* BFAppLinkNavigation.h in Headers */,
+				F081EFC563ABDA92DDAE20DD /* BFAppLinkResolving.h in Headers */,
+				E54B991C8A2F6669B1418BF6 /* BFAppLinkReturnToRefererController.h in Headers */,
+				52750265A1A7D5611E137587 /* BFAppLinkReturnToRefererView.h in Headers */,
+				280AA26667F4A12E0DE95724 /* BFAppLinkReturnToRefererView_Internal.h in Headers */,
+				31FF14C9869A6B9DBBC62A9C /* BFAppLinkTarget.h in Headers */,
+				438EE9A9F40DFBDD971F58D5 /* BFAppLink_Internal.h in Headers */,
+				D9F17361F76008A5CA5C0FB7 /* BFExecutor.h in Headers */,
+				0983D659AE4E63B3D66252AF /* BFMeasurementEvent.h in Headers */,
+				7F1C97ADFF9D4C66AC038F81 /* BFMeasurementEvent_Internal.h in Headers */,
+				6C0701032D42F7605B5E5CAA /* BFTask.h in Headers */,
+				954A5E2EF4526E280C1923EB /* BFTaskCompletionSource.h in Headers */,
+				B6122BDCDD6538D6CCD4B3C8 /* BFURL.h in Headers */,
+				C771D9358282266487BE3249 /* BFURL_Internal.h in Headers */,
+				8DF3A4A6810F3107FF198348 /* BFWebViewAppLinkResolver.h in Headers */,
+				7515400D2AA93AE1E8EFA282 /* Bolts.h in Headers */,
+				A3B30485BCF10A1B8BD0E69B /* BoltsVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40509AC00BD58C10A9B3C9D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B099428F59A8796366B43F /* BFAppLink.h in Headers */,
+				C41059CCACC8EEA397885579 /* BFAppLinkNavigation.h in Headers */,
+				6A522E2053DBE9CB5510F5F4 /* BFAppLinkResolving.h in Headers */,
+				DDA66F83024CA5DE170D85C9 /* BFAppLinkReturnToRefererController.h in Headers */,
+				E4A9270F2F6FA47282E4BEE2 /* BFAppLinkReturnToRefererView.h in Headers */,
+				871BF4A1F6E7D623B3EC9A36 /* BFAppLinkReturnToRefererView_Internal.h in Headers */,
+				ED9E3A855059BEB21C3C8F03 /* BFAppLinkTarget.h in Headers */,
+				2DF00C4628D6B5D0C17D53CF /* BFAppLink_Internal.h in Headers */,
+				9BA276E4CB4D1DDC5284A208 /* BFExecutor.h in Headers */,
+				0CFAFB2720D6B9E83435C38E /* BFMeasurementEvent.h in Headers */,
+				14E713476125D96ED5270098 /* BFMeasurementEvent_Internal.h in Headers */,
+				74A15FC53E6C82C5A5429D9C /* BFTask.h in Headers */,
+				1E8C25FE8EF9E6883CEAF279 /* BFTaskCompletionSource.h in Headers */,
+				3B3A0FE14A9C7D658170D142 /* BFURL.h in Headers */,
+				E2B931B8C1749AA006BD2209 /* BFURL_Internal.h in Headers */,
+				B1CAE7136A329FC75E3AFF58 /* BFWebViewAppLinkResolver.h in Headers */,
+				A58F54ACCE3D9C2CE5214CFD /* Bolts.h in Headers */,
+				FC75AE8EFEF101386794D9CD /* BoltsVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B8AD16BCFF2004741EFE9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9BB70259DF3B6248FE634F /* BFAppLink.h in Headers */,
+				9EF1B90339C733B752024284 /* BFAppLinkNavigation.h in Headers */,
+				6308C7BC1F4675A6E88BFE3C /* BFAppLinkResolving.h in Headers */,
+				30B559D12932E409F03BE054 /* BFAppLinkReturnToRefererController.h in Headers */,
+				1BE3A8805743CDBA1F3A279F /* BFAppLinkReturnToRefererView.h in Headers */,
+				E092F7A078080DA57D3FB50D /* BFAppLinkReturnToRefererView_Internal.h in Headers */,
+				4461C897AFDB298ECDC17599 /* BFAppLinkTarget.h in Headers */,
+				69D8F134AC6338A8C3E2722C /* BFAppLink_Internal.h in Headers */,
+				D668FB9C619080F5E4AE0976 /* BFExecutor.h in Headers */,
+				92A9EF2C5FA745F5DFC57069 /* BFMeasurementEvent.h in Headers */,
+				4ACF61EE89360D870D74233D /* BFMeasurementEvent_Internal.h in Headers */,
+				6E210FED2676789D433B674D /* BFTask.h in Headers */,
+				F9AE2BE1F411DFBEC3E84819 /* BFTaskCompletionSource.h in Headers */,
+				D6B0CC5978ED06A1D33730E7 /* BFURL.h in Headers */,
+				23E7B9D38D25E625016C5E6C /* BFURL_Internal.h in Headers */,
+				6C88F13DBBA7AF10438E006A /* BFWebViewAppLinkResolver.h in Headers */,
+				D1B24B111B2B406D0BBCC0EF /* Bolts.h in Headers */,
+				5EA61728D41840375E6AD19B /* BoltsVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		025B972ACDD5BAB44537D985 /* Pods-Bolts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A085AA9A81D98118C841E7B /* Build configuration list for PBXNativeTarget "Pods-Bolts" */;
+			buildPhases = (
+				360D99C0AF05722A14AA45DB /* Sources */,
+				538A3607F1C9E975129E673A /* Frameworks */,
+				A8B8AD16BCFF2004741EFE9D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Bolts";
+			productName = "Pods-Bolts";
+			productReference = 665CDA9AC852BE1E34BDBB33 /* libPods-Bolts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		05417CADE54057C19738B434 /* Pods-EpilepsyUnited-Bolts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8909BBC74DDD9690A7E2404A /* Build configuration list for PBXNativeTarget "Pods-EpilepsyUnited-Bolts" */;
+			buildPhases = (
+				C086729E5A359CD8CC9C2456 /* Sources */,
+				66C77521C309FDC912627C43 /* Frameworks */,
+				1100505C91C3BC3895ADE8A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EpilepsyUnited-Bolts";
+			productName = "Pods-EpilepsyUnited-Bolts";
+			productReference = AC101ECE89BDFE473FAFB625 /* libPods-EpilepsyUnited-Bolts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		179E5F0F3D0AABDE8DB7BDAF /* Pods-EpilepsyUnitedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DC74D7EAA8FD0E29D16027 /* Build configuration list for PBXNativeTarget "Pods-EpilepsyUnitedTests" */;
+			buildPhases = (
+				412CC368DDD8B1D22371A20A /* Sources */,
+				9DC3A8BA183EF387E2D071E5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44DCB32BE5FE695922E415E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-EpilepsyUnitedTests";
+			productName = "Pods-EpilepsyUnitedTests";
+			productReference = 8097FEFAEE788BA4C2BE432C /* libPods-EpilepsyUnitedTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2EC952F31D0A96FA7B0AD956 /* Pods-EpilepsyUnitedTests-Bolts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD11BB26C10263B745E6C246 /* Build configuration list for PBXNativeTarget "Pods-EpilepsyUnitedTests-Bolts" */;
+			buildPhases = (
+				C2FC2C5B56DDEA4824281D2E /* Sources */,
+				20C15D7B1D712B59BED37CA5 /* Frameworks */,
+				40509AC00BD58C10A9B3C9D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EpilepsyUnitedTests-Bolts";
+			productName = "Pods-EpilepsyUnitedTests-Bolts";
+			productReference = 29D5023BE0A6C95AC40B2749 /* libPods-EpilepsyUnitedTests-Bolts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3D79DA2EC935386FAB6B7263 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953ECDF5B6F435206772C931 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				E1E77F36AD167CE7ABE7A747 /* Sources */,
+				3709B8B42BC6802EA7043256 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D4862BE42E58332412CABB /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 9EBDE888BE4377AEB32C71AB /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9398200400ED7A6B878EE155 /* Pods-EpilepsyUnited */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29422095BCF69476C2C91CED /* Build configuration list for PBXNativeTarget "Pods-EpilepsyUnited" */;
+			buildPhases = (
+				F03A8BDB0FA033365DCEF704 /* Sources */,
+				BEE905B446E08E70376BBB4C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39774A4785F3E805AA6526BA /* PBXTargetDependency */,
+			);
+			name = "Pods-EpilepsyUnited";
+			productName = "Pods-EpilepsyUnited";
+			productReference = 4F3B030458942B808399E562 /* libPods-EpilepsyUnited.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C0AD8B6B8FF519C80E34033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 2AB56AC28F1931ACDAB600A4 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2DDC38C96DAD1347F068EA0;
+			productRefGroup = 8F3405BA0190CB4B8AD92169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D79DA2EC935386FAB6B7263 /* Pods */,
+				025B972ACDD5BAB44537D985 /* Pods-Bolts */,
+				9398200400ED7A6B878EE155 /* Pods-EpilepsyUnited */,
+				05417CADE54057C19738B434 /* Pods-EpilepsyUnited-Bolts */,
+				179E5F0F3D0AABDE8DB7BDAF /* Pods-EpilepsyUnitedTests */,
+				2EC952F31D0A96FA7B0AD956 /* Pods-EpilepsyUnitedTests-Bolts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		360D99C0AF05722A14AA45DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC18FCAB9FCE4C723DA9D3E8 /* BFAppLink.m in Sources */,
+				7C881D50209D88564F1CA022 /* BFAppLinkNavigation.m in Sources */,
+				E2768A7A6478E985B4338166 /* BFAppLinkReturnToRefererController.m in Sources */,
+				078BC35FEE48FC02F104B42E /* BFAppLinkReturnToRefererView.m in Sources */,
+				C520073D173BBFEEB6A49157 /* BFAppLinkTarget.m in Sources */,
+				689B80E95CC37CF45D3B420B /* BFExecutor.m in Sources */,
+				71771C67FBFA1C28FF1B3AA1 /* BFMeasurementEvent.m in Sources */,
+				9065F22EC4136EC4EFA62337 /* BFTask.m in Sources */,
+				2B7BEFACC15862F8EB181657 /* BFTaskCompletionSource.m in Sources */,
+				18CE49CC8BB2948FA298B805 /* BFURL.m in Sources */,
+				D0A7E1C3F53B81F858216970 /* BFWebViewAppLinkResolver.m in Sources */,
+				2A539FF4A0C8A4C3A9605966 /* Bolts.m in Sources */,
+				396E349EF8ED244F772168A4 /* Pods-Bolts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412CC368DDD8B1D22371A20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5991B173F4D6FB481D03CFE0 /* Pods-EpilepsyUnitedTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C086729E5A359CD8CC9C2456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF598CC3D92193A33FD3949 /* BFAppLink.m in Sources */,
+				7878DC7C92B4481733E37F53 /* BFAppLinkNavigation.m in Sources */,
+				0DF1D127DB2E4AC003C28CD7 /* BFAppLinkReturnToRefererController.m in Sources */,
+				515D631AA318524F059F55AF /* BFAppLinkReturnToRefererView.m in Sources */,
+				2B7C6B0B5A7A112C6D35157F /* BFAppLinkTarget.m in Sources */,
+				4DC8E1291C5677B7E9267EB0 /* BFExecutor.m in Sources */,
+				E0893371F9475CC4F0D1BF6C /* BFMeasurementEvent.m in Sources */,
+				93D17B84D02219CA48559C1A /* BFTask.m in Sources */,
+				D857FF385D596CA0E90BCD35 /* BFTaskCompletionSource.m in Sources */,
+				FD46127EE4B5FDFED3EAEF41 /* BFURL.m in Sources */,
+				3A5F9A35BAE64E539F18E312 /* BFWebViewAppLinkResolver.m in Sources */,
+				199098144E8C243BF7B26FCC /* Bolts.m in Sources */,
+				4EA444C7D4D195630642BB03 /* Pods-EpilepsyUnited-Bolts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FC2C5B56DDEA4824281D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076F3DD0715B402D492A56F8 /* BFAppLink.m in Sources */,
+				1658EB019010B71418F2CFB3 /* BFAppLinkNavigation.m in Sources */,
+				092254D784BBE33FA25D013F /* BFAppLinkReturnToRefererController.m in Sources */,
+				929CC47CD13D7324CC4A5072 /* BFAppLinkReturnToRefererView.m in Sources */,
+				F86687F1954620FCB410EE19 /* BFAppLinkTarget.m in Sources */,
+				E3114856265D065C23FBF2C9 /* BFExecutor.m in Sources */,
+				32C90F4EC318FA7BA257E00B /* BFMeasurementEvent.m in Sources */,
+				003902961AD6D062BF28F9FB /* BFTask.m in Sources */,
+				ED1484AC608BBC23A97D6D85 /* BFTaskCompletionSource.m in Sources */,
+				FAEE85FC56F0399008C69AC9 /* BFURL.m in Sources */,
+				7E60265E549A88087AE35F8D /* BFWebViewAppLinkResolver.m in Sources */,
+				D025B9B439448D1687C72F35 /* Bolts.m in Sources */,
+				714575152736C8164BB21E22 /* Pods-EpilepsyUnitedTests-Bolts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E77F36AD167CE7ABE7A747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD91922CCD8D841741407FA /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03A8BDB0FA033365DCEF704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615DD40D94A4FB800292AF95 /* Pods-EpilepsyUnited-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39774A4785F3E805AA6526BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EpilepsyUnited-Bolts";
+			target = 05417CADE54057C19738B434 /* Pods-EpilepsyUnited-Bolts */;
+			targetProxy = 082498BD1BD1E9A592D9E0D9 /* PBXContainerItemProxy */;
+		};
+		44DCB32BE5FE695922E415E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EpilepsyUnitedTests-Bolts";
+			target = 2EC952F31D0A96FA7B0AD956 /* Pods-EpilepsyUnitedTests-Bolts */;
+			targetProxy = 0B2CA131DBADA9FCEC72FFD0 /* PBXContainerItemProxy */;
+		};
+		E7D4862BE42E58332412CABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Bolts";
+			target = 025B972ACDD5BAB44537D985 /* Pods-Bolts */;
+			targetProxy = 705F0F66556967C78852AF67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FDBA07276D710A71BA0EDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F3B44BFB0E024BB05CDFC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B94C19840F563B3153A538A /* Pods-EpilepsyUnitedTests-Bolts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EpilepsyUnitedTests-Bolts/Pods-EpilepsyUnitedTests-Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		32EC06D444315B36EE31DA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187EF19183045614935AC571 /* Pods-EpilepsyUnited-Bolts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EpilepsyUnited-Bolts/Pods-EpilepsyUnited-Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3D559F1FF62C3A4C26048BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BC4C2AA5CA63951C008B35 /* Pods-Bolts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Bolts/Pods-Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B509CCB7715059A0F58AB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD95201F91F9B2E0A9BE28EE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8B6127DFB42B89C5A811C64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B94C19840F563B3153A538A /* Pods-EpilepsyUnitedTests-Bolts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EpilepsyUnitedTests-Bolts/Pods-EpilepsyUnitedTests-Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8BBADC480A647652BC0A44F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187EF19183045614935AC571 /* Pods-EpilepsyUnited-Bolts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EpilepsyUnited-Bolts/Pods-EpilepsyUnited-Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9052C2074F1AFF92B4D2876D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BC4C2AA5CA63951C008B35 /* Pods-Bolts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Bolts/Pods-Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9474364B17204A732D6BD2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9C6872ECA180CB9B883DBA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C19C280175F9051F1A2802E /* Pods-EpilepsyUnitedTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A33FCB9E5F4BCDB8C16C5CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9258B78D7F4B3C831801EBB9 /* Pods-EpilepsyUnitedTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AC04CDDDD6ABCD502639424A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AEDA712D09846B118A92326 /* Pods-EpilepsyUnited.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7C8058C264E2B79D02E1AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB271501BEF1BEA5CAD6256F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E0AEC7735DB6C7ED754945FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA2D6A8BC167DA2526EC1B6 /* Pods-EpilepsyUnited.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29422095BCF69476C2C91CED /* Build configuration list for PBXNativeTarget "Pods-EpilepsyUnited" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AEC7735DB6C7ED754945FE /* Debug */,
+				AC04CDDDD6ABCD502639424A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB56AC28F1931ACDAB600A4 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9474364B17204A732D6BD2C6 /* Debug */,
+				0FDBA07276D710A71BA0EDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8909BBC74DDD9690A7E2404A /* Build configuration list for PBXNativeTarget "Pods-EpilepsyUnited-Bolts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBADC480A647652BC0A44F7 /* Debug */,
+				32EC06D444315B36EE31DA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953ECDF5B6F435206772C931 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C8058C264E2B79D02E1AA6 /* Debug */,
+				4B509CCB7715059A0F58AB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DC74D7EAA8FD0E29D16027 /* Build configuration list for PBXNativeTarget "Pods-EpilepsyUnitedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33FCB9E5F4BCDB8C16C5CD2 /* Debug */,
+				9C6872ECA180CB9B883DBA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A085AA9A81D98118C841E7B /* Build configuration list for PBXNativeTarget "Pods-Bolts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D559F1FF62C3A4C26048BC7 /* Debug */,
+				9052C2074F1AFF92B4D2876D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD11BB26C10263B745E6C246 /* Build configuration list for PBXNativeTarget "Pods-EpilepsyUnitedTests-Bolts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3B44BFB0E024BB05CDFC58 /* Debug */,
+				8B6127DFB42B89C5A811C64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C0AD8B6B8FF519C80E34033 /* Project object */;
+}
