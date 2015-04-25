@@ -14,6 +14,8 @@
 		3117DCA21AEBD74200E3001A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3117DCA01AEBD74200E3001A /* LaunchScreen.xib */; };
 		3117DCAE1AEBD74300E3001A /* EpilepsyUnitedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */; };
 		3175123C1AEBD91700FF1D72 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3175123B1AEBD91700FF1D72 /* data.json */; };
+		3175123E1AEBED5E00FF1D72 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3175123D1AEBED5E00FF1D72 /* PostTableViewCell.swift */; };
+		317512401AEC43D800FF1D72 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3175123F1AEC43D800FF1D72 /* JournalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		3117DCAC1AEBD74300E3001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpilepsyUnitedTests.swift; sourceTree = "<group>"; };
 		3175123B1AEBD91700FF1D72 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		3175123D1AEBED5E00FF1D72 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		3175123F1AEC43D800FF1D72 /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 			children = (
 				3117DC971AEBD74200E3001A /* AppDelegate.swift */,
 				3117DC991AEBD74200E3001A /* ViewController.swift */,
+				3175123F1AEC43D800FF1D72 /* JournalViewController.swift */,
 				3117DC9B1AEBD74200E3001A /* Main.storyboard */,
+				3175123D1AEBED5E00FF1D72 /* PostTableViewCell.swift */,
 				3117DC9E1AEBD74200E3001A /* Images.xcassets */,
 				3117DCA01AEBD74200E3001A /* LaunchScreen.xib */,
 				3117DC951AEBD74200E3001A /* Supporting Files */,
@@ -216,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				317512401AEC43D800FF1D72 /* JournalViewController.swift in Sources */,
 				3117DC9A1AEBD74200E3001A /* ViewController.swift in Sources */,
 				3117DC981AEBD74200E3001A /* AppDelegate.swift in Sources */,
+				3175123E1AEBED5E00FF1D72 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +355,7 @@
 				INFOPLIST_FILE = EpilepsyUnited/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -357,6 +366,7 @@
 				INFOPLIST_FILE = EpilepsyUnited/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
