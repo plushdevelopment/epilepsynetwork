@@ -1,390 +1,41 @@
-[{
-  "user": true,
-  "type": 123,
+[
+ {
+  "user": "Pratik Patel",
+  "type": 1,
   "location": {
     "latitude": "b",
     "longitude": "d"
   },
-  "text": "Hello World"
+  "text": "This is my story"
 }, 
 
 {
-  "user": true,
-  "type": 123,
+  "user": "Pratik Patel",
+  "type": 2,
   "location": {
     "latitude": "b",
     "longitude": "d"
   },
-  "text": "Hello World"
+  "text": "This is my question"
 }, 
 
 {
-  "user": true,
-  "type": 123,
+  "user": "Pratik Patel",
+  "type": 3,
   "location": {
     "latitude": "b",
     "longitude": "d"
   },
-  "text": "Hello World"
+  "text": "This is my article"
 }, 
 
 {
-  "user": true,
-  "type": 123,
+  "user": "Pratik Patel",
+  "type": 4,
   "location": {
     "latitude": "b",
     "longitude": "d"
   },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}, 
-
-{
-  "user": true,
-  "type": 123,
-  "location": {
-    "latitude": "b",
-    "longitude": "d"
-  },
-  "text": "Hello World"
-}
+  "text": "This is my event"
+ }
 ]
