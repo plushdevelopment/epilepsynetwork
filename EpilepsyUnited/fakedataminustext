@@ -1,699 +1,699 @@
 {
 text:" ",
-type: 0,
-location: [-2.86,105.71],
-name: Flora Fairley ,
-}
-
-{
-text:" ",
-type: 4,
-location: [-26.23,86.37],
-name: Jonah Mainer ,
-}
-
-{
-text:" ",
-type: 0,
-location: [-169.2,170.24],
-name: Roy Dames ,
-}
-
-{
-text:" ",
-type: 4,
-location: [147.9,71.4],
-name: Sandi Kitts ,
-}
-
-{
-text:" ",
-type: 4,
-location: [-104.46,-168.57],
-name: Roy Dames ,
-}
-
-{
-text:" ",
-type: 4,
-location: [135.42,-120.17],
-name: Pat Fincher ,
-}
-
-{
-text:" ",
-type: 0,
-location: [89.84,170.46],
-name: Lesa Frasca ,
-}
-
-{
-text:" ",
-type: 0,
-location: [-118.78,-128.72],
-name: Esteban Mcclean ,
-}
-
-{
-text:" ",
-type: 3,
-location: [17.72,-18.28],
-name: Tammara Hurn ,
-}
-
-{
-text:" ",
-type: 3,
-location: [43.49,111.53],
-name: Kurt Hess ,
-}
-
-{
-text:" ",
-type: 4,
-location: [72.89,126.31],
-name: Marvella Fiorenza ,
-}
-
-{
-text:" ",
-type: 4,
-location: [-104.41,99.76],
-name: Nigel Risner ,
-}
-
-{
-text:" ",
 type: 1,
-location: [162.08,-91.28],
-name: Helga Marguez ,
-}
-
-{
-text:" ",
-type: 1,
-location: [154.33,-133.24],
-name: Carlota Cartwright ,
+location: [-158.87,124.43],
+name: "Vanna Pastor" ,
 }
 
 {
 text:" ",
 type: 3,
-location: [-83.48,155.0],
-name: Inell Inouye ,
-}
-
-{
-text:" ",
-type: 0,
-location: [76.5,50.22],
-name: Darby Mcnair ,
-}
-
-{
-text:" ",
-type: 3,
-location: [121.44,116.53],
-name: Cletus Prestridge ,
+location: [0.46,140.74],
+name: "Marvella Fiorenza" ,
 }
 
 {
 text:" ",
 type: 4,
-location: [82.83,27.56],
-name: Inell Inouye ,
-}
-
-{
-text:" ",
-type: 0,
-location: [-119.62,24.53],
-name: Jonah Mainer ,
+location: [90.42,-86.89],
+name: "Lesa Frasca" ,
 }
 
 {
 text:" ",
 type: 4,
-location: [107.76,165.49],
-name: Cammy Hunger ,
+location: [-165.42,-52.44],
+name: "Darron Sasse" ,
 }
 
 {
 text:" ",
 type: 2,
-location: [39.14,30.3],
-name: Rana Sallis ,
-}
-
-{
-text:" ",
-type: 2,
-location: [178.11,127.38],
-name: Booker Bryon ,
-}
-
-{
-text:" ",
-type: 2,
-location: [154.73,-101.31],
-name: Nigel Risner ,
+location: [52.57,11.62],
+name: "Ermelinda Michell" ,
 }
 
 {
 text:" ",
 type: 3,
-location: [131.08,-158.47],
-name: Palmer Followell ,
+location: [-130.97,-140.59],
+name: "Darby Mcnair" ,
 }
 
 {
 text:" ",
 type: 4,
-location: [43.3,-104.74],
-name: Stephine Gorley ,
+location: [52.13,22.19],
+name: "Carlota Cartwright" ,
 }
 
 {
 text:" ",
 type: 1,
-location: [16.09,171.45],
-name: Faith Rock ,
+location: [45.54,152.35],
+name: "Laraine Borba" ,
 }
 
 {
 text:" ",
-type: 1,
-location: [-53.66,60.39],
-name: Deanna Carrasquillo ,
+type: 3,
+location: [173.95,49.42],
+name: "Bernard Gorrell" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [-22.46,75.04],
+name: "Tomiko Alva" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-113.64,10.3],
+name: "Charity Attwood" ,
 }
 
 {
 text:" ",
 type: 0,
-location: [-8.69,30.13],
-name: Inell Inouye ,
+location: [118.21,176.42],
+name: "Shannan Melgoza" ,
 }
 
 {
 text:" ",
 type: 0,
-location: [-170.96,-29.52],
-name: Darron Sasse ,
-}
-
-{
-text:" ",
-type: 2,
-location: [120.01,-159.78],
-name: Elissa Every ,
-}
-
-{
-text:" ",
-type: 3,
-location: [27.99,-51.16],
-name: Cammy Hunger ,
-}
-
-{
-text:" ",
-type: 2,
-location: [-79.93,-177.76],
-name: Stephine Gorley ,
-}
-
-{
-text:" ",
-type: 4,
-location: [90.85,114.48],
-name: Glady Birden ,
-}
-
-{
-text:" ",
-type: 3,
-location: [-61.01,-156.6],
-name: Deanna Carrasquillo ,
-}
-
-{
-text:" ",
-type: 4,
-location: [84.77,84.06],
-name: Lachelle Munos ,
+location: [40.16,-32.86],
+name: "Alonso Decaro" ,
 }
 
 {
 text:" ",
 type: 1,
-location: [65.91,76.29],
-name: Bok Caminiti ,
-}
-
-{
-text:" ",
-type: 4,
-location: [145.57,37.88],
-name: Elissa Every ,
+location: [-63.1,-95.16],
+name: "Tammara Hurn" ,
 }
 
 {
 text:" ",
 type: 3,
-location: [-100.93,-65.97],
-name: Solomon Troche ,
+location: [-8.97,-118.46],
+name: "Roy Dames" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [-13.96,138.31],
+name: "Darby Mcnair" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [-28.03,178.04],
+name: "Palmer Followell" ,
 }
 
 {
 text:" ",
 type: 0,
-location: [-175.16,-56.27],
-name: Sixta Cantin ,
-}
-
-{
-text:" ",
-type: 2,
-location: [23.17,-140.45],
-name: Bernard Gorrell ,
-}
-
-{
-text:" ",
-type: 4,
-location: [-35.99,113.46],
-name: Sandi Kitts ,
-}
-
-{
-text:" ",
-type: 2,
-location: [-99.76,170.36],
-name: Deanna Carrasquillo ,
-}
-
-{
-text:" ",
-type: 4,
-location: [-7.72,-93.25],
-name: Justa Bomgardner ,
+location: [-142.89,-10.39],
+name: "Eulalia Hier" ,
 }
 
 {
 text:" ",
 type: 3,
-location: [-139.85,9.04],
-name: Charity Attwood ,
-}
-
-{
-text:" ",
-type: 1,
-location: [-1.27,17.57],
-name: Ermelinda Michell ,
-}
-
-{
-text:" ",
-type: 1,
-location: [45.74,-101.21],
-name: Alonso Decaro ,
-}
-
-{
-text:" ",
-type: 4,
-location: [-47.76,55.29],
-name: Laraine Borba ,
-}
-
-{
-text:" ",
-type: 1,
-location: [123.76,-125.41],
-name: Glady Birden ,
+location: [128.16,15.74],
+name: "Deanna Carrasquillo" ,
 }
 
 {
 text:" ",
 type: 0,
-location: [-113.76,66.22],
-name: Alonso Decaro ,
-}
-
-{
-text:" ",
-type: 3,
-location: [-175.05,131.68],
-name: Jessie Dockstader ,
+location: [-82.89,159.54],
+name: "Nigel Risner" ,
 }
 
 {
 text:" ",
 type: 1,
-location: [82.64,46.06],
-name: Bok Caminiti ,
-}
-
-{
-text:" ",
-type: 2,
-location: [79.14,37.6],
-name: Carlota Cartwright ,
-}
-
-{
-text:" ",
-type: 2,
-location: [-156.83,140.34],
-name: Glady Birden ,
+location: [167.18,11.75],
+name: "Dorthey Borchers" ,
 }
 
 {
 text:" ",
 type: 0,
-location: [142.22,-118.59],
-name: Inell Inouye ,
+location: [-152.8,52.91],
+name: "Odessa Shield " ,
+}
+
+{
+text:" ",
+type: 1,
+location: [162.22,-8.79],
+name: "Laraine Borba" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [-108.29,-49.69],
+name: "Lesa Frasca" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [126.59,146.72],
+name: "Sherman Elizondo" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [-60.32,-54.45],
+name: "Nigel Risner" ,
 }
 
 {
 text:" ",
 type: 0,
-location: [-15.74,-154.48],
-name: Lesa Frasca ,
-}
-
-{
-text:" ",
-type: 1,
-location: [117.95,0.92],
-name: Tomiko Alva ,
-}
-
-{
-text:" ",
-type: 1,
-location: [-101.21,-115.46],
-name: Glady Birden ,
-}
-
-{
-text:" ",
-type: 4,
-location: [8.55,35.49],
-name: Deanna Carrasquillo ,
-}
-
-{
-text:" ",
-type: 1,
-location: [-9.1,-131.93],
-name: Inell Inouye ,
-}
-
-{
-text:" ",
-type: 3,
-location: [-131.52,-36.14],
-name: Yuette Mccarthy ,
+location: [-39.46,-35.55],
+name: "Lachelle Munos" ,
 }
 
 {
 text:" ",
 type: 0,
-location: [-80.51,-153.54],
-name: Sixta Cantin ,
+location: [90.32,36.82],
+name: "Pat Fincher" ,
 }
 
 {
 text:" ",
 type: 4,
-location: [-70.98,-29.48],
-name: Vanna Pastor ,
+location: [164.96,-80.63],
+name: "Rana Sallis" ,
 }
 
 {
 text:" ",
-type: 1,
-location: [-59.17,-136.3],
-name: Alyssa Burnside ,
+type: 2,
+location: [118.78,-34.06],
+name: "Flora Fairley" ,
 }
 
 {
 text:" ",
-type: 1,
-location: [-21.46,-33.93],
-name: Cammy Hunger ,
+type: 2,
+location: [176.43,-16.16],
+name: "Esteban Mcclean" ,
 }
 
 {
 text:" ",
-type: 4,
-location: [-13.11,-86.6],
-name: Alonso Decaro ,
-}
-
-{
-text:" ",
-type: 4,
-location: [-117.43,-103.56],
-name: Shannan Melgoza ,
+type: 2,
+location: [143.34,13.16],
+name: "Flora Fairley" ,
 }
 
 {
 text:" ",
 type: 3,
-location: [-40.96,135.34],
-name: Rocco Oviatt ,
+location: [62.54,153.82],
+name: "Rana Sallis" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [-108.45,124.09],
+name: "Faith Rock" ,
 }
 
 {
 text:" ",
 type: 3,
-location: [-46.45,168.16],
-name: Marvella Fiorenza ,
+location: [-41.85,-168.85],
+name: "Charity Attwood" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [-77.5,-5.79],
+name: "Stephine Gorley" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-19.31,134.49],
+name: "Cletus Prestridge" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [-138.94,-136.52],
+name: "Elissa Every" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [87.29,40.66],
+name: "Bok Caminiti" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [-40.33,-30.8],
+name: "Darby Mcnair" ,
 }
 
 {
 text:" ",
 type: 0,
-location: [-146.85,118.12],
-name: Stephine Gorley ,
-}
-
-{
-text:" ",
-type: 2,
-location: [70.83,19.7],
-name: Alonso Decaro ,
-}
-
-{
-text:" ",
-type: 2,
-location: [-81.4,-67.09],
-name: Deanna Carrasquillo ,
-}
-
-{
-text:" ",
-type: 4,
-location: [-47.98,-78.14],
-name: Alyssa Burnside ,
-}
-
-{
-text:" ",
-type: 4,
-location: [67.33,153.38],
-name: Marvella Fiorenza ,
-}
-
-{
-text:" ",
-type: 3,
-location: [-154.0,-27.38],
-name: Pat Fincher ,
-}
-
-{
-text:" ",
-type: 3,
-location: [79.59,22.28],
-name: Carlota Cartwright ,
-}
-
-{
-text:" ",
-type: 4,
-location: [-102.69,-83.09],
-name: Inell Inouye ,
-}
-
-{
-text:" ",
-type: 1,
-location: [53.16,-66.61],
-name: Augustine Haggins ,
-}
-
-{
-text:" ",
-type: 1,
-location: [-153.05,151.31],
-name: Odessa Shield  ,
-}
-
-{
-text:" ",
-type: 4,
-location: [165.12,138.2],
-name: Flora Fairley ,
-}
-
-{
-text:" ",
-type: 3,
-location: [171.35,-126.73],
-name: Alyssa Burnside ,
-}
-
-{
-text:" ",
-type: 4,
-location: [118.43,-97.52],
-name: Charity Attwood ,
+location: [-148.74,84.73],
+name: "Augustine Haggins" ,
 }
 
 {
 text:" ",
 type: 0,
-location: [-36.96,-169.28],
-name: Jessie Dockstader ,
+location: [89.74,-79.33],
+name: "Charity Attwood" ,
 }
 
 {
 text:" ",
 type: 0,
-location: [56.67,64.26],
-name: Tammara Hurn ,
-}
-
-{
-text:" ",
-type: 2,
-location: [111.6,-82.61],
-name: Tomiko Alva ,
-}
-
-{
-text:" ",
-type: 2,
-location: [-174.89,-135.82],
-name: Darby Mcnair ,
-}
-
-{
-text:" ",
-type: 4,
-location: [86.65,-164.04],
-name: Jonah Mainer ,
-}
-
-{
-text:" ",
-type: 3,
-location: [-10.01,-83.45],
-name: Alonso Decaro ,
-}
-
-{
-text:" ",
-type: 3,
-location: [40.5,-4.07],
-name: Tomiko Alva ,
-}
-
-{
-text:" ",
-type: 4,
-location: [58.94,-64.13],
-name: Sherman Elizondo ,
-}
-
-{
-text:" ",
-type: 2,
-location: [-86.57,164.9],
-name: Augustine Haggins ,
-}
-
-{
-text:" ",
-type: 2,
-location: [107.03,137.85],
-name: Justa Bomgardner ,
+location: [22.35,157.68],
+name: "Palmer Followell" ,
 }
 
 {
 text:" ",
 type: 1,
-location: [-155.14,-25.52],
-name: Sandi Kitts ,
+location: [-55.52,-125.77],
+name: "Rana Sallis" ,
 }
 
 {
 text:" ",
-type: 1,
-location: [163.37,112.83],
-name: Sandi Kitts ,
+type: 2,
+location: [-102.97,-138.22],
+name: "Elissa Every" ,
 }
 
 {
 text:" ",
-type: 1,
-location: [4.14,-144.6],
-name: Carlota Cartwright ,
-}
-
-{
-text:" ",
-type: 3,
-location: [-110.29,-99.62],
-name: Bernard Gorrell ,
+type: 2,
+location: [168.38,41.77],
+name: "Odessa Shield " ,
 }
 
 {
 text:" ",
 type: 0,
-location: [-147.74,121.15],
-name: Esteban Mcclean ,
+location: [-34.4,64.14],
+name: "Inell Inouye" ,
 }
 
 {
 text:" ",
 type: 2,
-location: [-76.94,129.65],
-name: Cammy Hunger ,
+location: [88.4,155.56],
+name: "Pat Fincher" ,
 }
 
 {
 text:" ",
-type: 4,
-location: [137.84,73.81],
-name: Charity Attwood ,
-}
-
-{
-text:" ",
-type: 2,
-location: [-79.27,-35.16],
-name: Yuette Mccarthy ,
+type: 1,
+location: [-153.7,75.66],
+name: "Eulalia Hier" ,
 }
 
 {
 text:" ",
 type: 3,
-location: [2.01,92.6],
-name: Flora Fairley ,
+location: [150.67,-36.69],
+name: "Elissa Every" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [62.32,-19.09],
+name: "Lachelle Munos" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [112.78,-167.23],
+name: "Alonso Decaro" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [109.21,-57.55],
+name: "Esteban Mcclean" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [-4.17,78.47],
+name: "Elissa Every" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-62.58,164.78],
+name: "Flora Fairley" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [-76.33,153.9],
+name: "Booker Bryon" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [59.75,75.53],
+name: "Flora Fairley" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [128.6,93.33],
+name: "Solomon Troche" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [107.63,-4.06],
+name: "Jessie Dockstader" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [-138.72,147.53],
+name: "Rocco Oviatt" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-23.75,128.39],
+name: "Lesa Frasca" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [-129.75,-167.88],
+name: "Eulalia Hier" ,
+}
+
+{
+text:" ",
+type: 0,
+location: [-107.19,-47.85],
+name: "Inell Inouye" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [-31.28,19.3],
+name: "Pat Fincher" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [43.33,85.04],
+name: "Inell Inouye" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [-51.97,17.66],
+name: "Darron Sasse" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [-126.06,147.5],
+name: "Charity Attwood" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-109.52,-138.25],
+name: "Lachelle Munos" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-43.07,-153.48],
+name: "Darby Mcnair" ,
+}
+
+{
+text:" ",
+type: 0,
+location: [41.42,-159.67],
+name: "Rocco Oviatt" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-88.26,-78.43],
+name: "Sixta Cantin" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [56.25,-87.9],
+name: "Alyssa Burnside" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [-166.16,36.91],
+name: "Pat Fincher" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [-5.54,107.24],
+name: "Dorthey Borchers" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [-68.58,107.76],
+name: "Dorthey Borchers" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [17.29,33.5],
+name: "Rana Sallis" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [143.48,125.77],
+name: "Cletus Prestridge" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [105.78,-94.72],
+name: "Yuette Mccarthy" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [85.69,126.59],
+name: "Odessa Shield " ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-164.94,-171.7],
+name: "Augustine Haggins" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [-97.74,-29.71],
+name: "Bernard Gorrell" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [161.08,-172.87],
+name: "Tammara Hurn" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [-172.05,114.14],
+name: "Odessa Shield " ,
+}
+
+{
+text:" ",
+type: 0,
+location: [159.56,-40.01],
+name: "Deanna Carrasquillo" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [170.75,-96.98],
+name: "Charity Attwood" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-151.78,69.88],
+name: "Odessa Shield " ,
+}
+
+{
+text:" ",
+type: 0,
+location: [-84.03,-86.67],
+name: "Jonah Mainer" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [47.11,5.3],
+name: "Darron Sasse" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [40.02,133.19],
+name: "Roy Dames" ,
+}
+
+{
+text:" ",
+type: 3,
+location: [58.26,98.28],
+name: "Jonah Mainer" ,
+}
+
+{
+text:" ",
+type: 0,
+location: [-120.34,-71.44],
+name: "Eulalia Hier" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [-151.64,112.89],
+name: "Carlota Cartwright" ,
+}
+
+{
+text:" ",
+type: 0,
+location: [-152.91,-52.73],
+name: "Odessa Shield " ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-86.19,25.16],
+name: "Solomon Troche" ,
+}
+
+{
+text:" ",
+type: 1,
+location: [104.15,112.45],
+name: "Booker Bryon" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [91.17,-27.36],
+name: "Bernard Gorrell" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [-35.64,157.22],
+name: "Alyssa Burnside" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [113.42,109.5],
+name: "Booker Bryon" ,
+}
+
+{
+text:" ",
+type: 2,
+location: [76.38,91.03],
+name: "Augustine Haggins" ,
+}
+
+{
+text:" ",
+type: 4,
+location: [-149.99,7.68],
+name: "Tomiko Alva" ,
 }
