@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>31168263-8D2A-417B-B5AC-4B839D28BC9B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>EpilepsyUnited</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CA713E366BB35EF58A60136888E8AFCCA3F1A184</key>
 		<string>github.com:plushdevelopment/epilepsyunited.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>EpilepsyUnited/EpilepsyUnited.xcodeproj/project.xcworkspace</string>
+	<string>EpilepsyUnited/EpilepsyUnited.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CA713E366BB35EF58A60136888E8AFCCA3F1A184</key>

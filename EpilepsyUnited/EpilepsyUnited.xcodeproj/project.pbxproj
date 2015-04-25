@@ -13,6 +13,7 @@
 		3117DC9F1AEBD74200E3001A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3117DC9E1AEBD74200E3001A /* Images.xcassets */; };
 		3117DCA21AEBD74200E3001A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3117DCA01AEBD74200E3001A /* LaunchScreen.xib */; };
 		3117DCAE1AEBD74300E3001A /* EpilepsyUnitedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */; };
+		3175123C1AEBD91700FF1D72 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3175123B1AEBD91700FF1D72 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3117DCA71AEBD74300E3001A /* EpilepsyUnitedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpilepsyUnitedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3117DCAC1AEBD74300E3001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3117DCAD1AEBD74300E3001A /* EpilepsyUnitedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpilepsyUnitedTests.swift; sourceTree = "<group>"; };
+		3175123B1AEBD91700FF1D72 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		3117DC951AEBD74200E3001A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3175123B1AEBD91700FF1D72 /* data.json */,
 				3117DC961AEBD74200E3001A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +198,7 @@
 				3117DC9D1AEBD74200E3001A /* Main.storyboard in Resources */,
 				3117DCA21AEBD74200E3001A /* LaunchScreen.xib in Resources */,
 				3117DC9F1AEBD74200E3001A /* Images.xcassets in Resources */,
+				3175123C1AEBD91700FF1D72 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				3117DCB31AEBD74300E3001A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3117DCB41AEBD74300E3001A /* Build configuration list for PBXNativeTarget "EpilepsyUnitedTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				3117DCB61AEBD74300E3001A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
